@@ -1,0 +1,20 @@
+description = "Default layout"
+
+[resources]
+less[] = "layouts/default.less"
+==
+<!DOCTYPE html>
+<html>
+
+    <body class="{{ 'page-'~this.page.id }}">
+
+
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+
+    </body>
+</html>

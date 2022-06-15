@@ -1,0 +1,4 @@
+title: Movies
+modelClass: Sandrine\Films\Models\Movie
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table sandrine_films_'
+    - builder_table_create_sandrine_films_.php

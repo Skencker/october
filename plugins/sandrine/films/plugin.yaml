@@ -1,0 +1,11 @@
+plugin:
+    name: 'sandrine.films::lang.plugin.name'
+    description: 'sandrine.films::lang.plugin.description'
+    author: Sandrine
+    icon: oc-icon-video-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Movies
+        url: sandrine/films/movies
+        icon: icon-video-camera

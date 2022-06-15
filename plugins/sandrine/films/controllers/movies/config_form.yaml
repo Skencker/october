@@ -1,0 +1,10 @@
+name: Movies
+form: $/sandrine/films/models/movie/fields.yaml
+modelClass: Sandrine\Films\Models\Movie
+defaultRedirect: sandrine/films/movies
+create:
+    redirect: 'sandrine/films/movies/update/:id'
+    redirectClose: sandrine/films/movies
+update:
+    redirect: sandrine/films/movies
+    redirectClose: sandrine/films/movies
